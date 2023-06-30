@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>tiled-map game | codinger-cutie on GitHub</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="tiled-map-game-container">
+  <div id="map-container">
+    <div id="map"></div>
+  </div>
+  <div id="mobile-dpad" style="width: 90px; height: 90px; background-color: blue; position: absolute; left: 2.5%; bottom: 5%;">
+    <!--  to move d-pad to the right add this in CSS 'left: 75.5%;' -->
+    <!-- to move d-pad to the left add this in CSS 'left: 2.5%;' -->
+    <div style="width: 30px; height: 30px; display: hidden; float: left;"></div>
+    <button id="move-up" style="width: 30px; height: 30px; float: left;" class="mobile-controls-button">&uarr;</button>
+    <div style="width: 30px; height: 30px; display: hidden; float: left;"></div>
+    <button id="move-left" style="width: 30px; height: 30px; float: left;" class="mobile-controls-button">&larr;</button>
+    <div style="width: 30px; height: 30px; display: hidden; float: left;"></div>
+    <button id="move-right" style="width: 30px; height: 30px; float: left;" class="mobile-controls-button">&rarr;</button>
+    <div style="width: 30px; height: 30px; display: hidden; float: left;"></div>
+    <button id="move-down" style="width: 30px; height: 30px; float: left;" class="mobile-controls-button">&darr;</button>
+  
+  
+</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
